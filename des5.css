@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    position: absolute;
+    left: 20%;
+}
+h1{
+    text-align: center;
+}
+.des1{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-content: center;
+    /*position: absolute;
+    top: 40%;
+    left: 4%;*/
+
+}
+.point{
+    height: 10px;
+    width: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: red;
+    /*position: absolute;
+    top: 40%;
+    left: 29%;*/
+    
+}
+.button{
+    position: absolute;
+    top: 85%;
+    left: 20%;
+   
+}
+.tous-les-des{
+    display: flex;
+    gap: 15px;
+}
+.sep1{
+    display: flex;
+    justify-content: space-between;
+}
+.sep2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.point1{
+    height: 10px;
+    width: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: red;
+    margin-left: 19px; 
+    margin-top: 5px;  
+}
